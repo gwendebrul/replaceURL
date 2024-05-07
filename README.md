@@ -6,9 +6,9 @@ So this script takes 3 to 4 parameters on the command line and replaces all spec
 
 There are 3 required parameters and 1 optional
 
-- parameter -u "<replacementURL>" => replacement URL
-- parameter -o "<originalURL>" => original URL
-- paremeter -d "<directory>" => root directory for starting replacing URLs
+- parameter -u "replacementURL" => replacement URL
+- parameter -o "originalURL" => original URL
+- paremeter -d "directory" => root directory for starting replacing URLs
 
 The optional parameter is for removing the backup files created by the script.
 On default the backup files are retained, if you want them removed you have to add this parameter.
